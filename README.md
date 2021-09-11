@@ -7,7 +7,7 @@ Red - run!
 
 ## Dependencies
 * [WLED](https://github.com/Aircoookie/WLED "WLED") for ESP8266/ESP32
-* [Python 3.7](https://www.python.org/downloads/ "Python 3.7") (to run source code if necessary)
+* [Python 3.x](https://www.python.org/downloads/) (to run source code if necessary)
 
 ## How to use
 * Copy "gamestate_integration_wled.cfg" to "csgo/cfg" directory.
