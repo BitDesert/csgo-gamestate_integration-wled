@@ -98,7 +98,7 @@ class MyRequestHandler(BaseHTTPRequestHandler):
                 if bomb_state == 'planted':
                     self.server.start_timer30()
                     self.server.start_timer35()
-                    self.server.send_to_wled(color = [[0, 255, 0],[0,0,0],[0,0,0]])
+                    self.server.send_to_wled(color = [[0, 255, 0],[0,0,0],[0,0,0]], effects=0, data={"on":True, "seg":[{"col":[[0, 255, 0],[0,0,0],[0,0,0]], "fx": 0}]})
 
     def get_round_phase(self, payload):
         if 'round' in payload and 'phase' in payload['round']:
