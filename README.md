@@ -1,8 +1,10 @@
 # CS:GO to WLED gamestate integration (С4)
 Displays С4 status
-Green - can defuse
-Yellow - can defuse (only with defuse kit)
-Red - run!
+
+* Green - can defuse
+* Yellow - can defuse (only with defuse kit)
+* Red - run!
+
 [Example video](https://youtu.be/Oddy42e71_c)
 
 ## Dependencies
